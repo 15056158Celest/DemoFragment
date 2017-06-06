@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         Fragment f2 = new FragmentSecond();
         ft.replace(R.id.frame2, f2);
 
+
+
         ft.commit();
     }
 }
